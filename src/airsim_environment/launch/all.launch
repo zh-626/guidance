@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<launch>
+  <include file="$(find airsim_environment)/launch/airnode_with_takeoff.launch"/>
+  <include file="$(find airsim_environment)/launch/rfly_node.launch"/>
+</launch>
